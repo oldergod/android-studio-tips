@@ -30,6 +30,14 @@ public class EditingDemo {
     private ArrayList mArrayList;
 
     /**
+     * 1.- コマンド検索
+     * すべてのコマンドを検索できるダイアログ
+     *
+     * Mac: Cmd+Shift+A
+     * Win: Ctrl+Shift+A
+     */
+
+    /**
      * 1.- Smart Join: Ctrl+Shift+J
      * 文字列を連結する
      *
@@ -138,7 +146,7 @@ public class EditingDemo {
      * 7.- ポストフィックステンプレート
      *
      * Mac: Cmd+J
-     * Win:
+     * Win: Ctrl+J
      */
     public void postfix() {
         int[] ints = {1, 2, 3, 4};

@@ -30,7 +30,7 @@ public class EditingDemo {
     private ArrayList mArrayList;
 
     /**
-     * 1.- コマンド検索
+     * 1.- アクセスサーチ
      * すべてのコマンドを検索できるダイアログ
      *
      * Mac: Cmd+Shift+A
@@ -38,7 +38,7 @@ public class EditingDemo {
      */
 
     /**
-     * 1.- Smart Join: Ctrl+Shift+J
+     * 2.- Smart Join: Ctrl+Shift+J
      * 文字列を連結する
      *
      * @return the constant string
@@ -52,14 +52,14 @@ public class EditingDemo {
     }
 
     /**
-     * 2.- Completion: Enter 対 Tab
+     * 3.- Completion: Enter 対 Tab
      */
     public boolean completion(String first, String second) {
         return first.contains(second);
     }
 
     /**
-     * 3.- instanceof ArrayList
+     * 4.- instanceof ArrayList
      *
      * "." は型の関数を提供し、キャストもする
      * Alt-Enter: Insert (cast) declaration
@@ -71,7 +71,7 @@ public class EditingDemo {
     }
 
     /**
-     * 4.- Multicursor
+     * 5.- Multicursor
      *
      * Select Next: Ctrl-G
      * Skip:
@@ -91,7 +91,7 @@ public class EditingDemo {
     }
 
     /**
-     * 5.- ナビゲーション
+     * 6.- ナビゲーション
      * Cmd+F12 Navigate
      * ほぼどのダイアログでも書き出すと検索できる
      *
@@ -115,7 +115,7 @@ public class EditingDemo {
      */
 
     /**
-     * 6.- メソッド抽出
+     * 7.- メソッド抽出
      *
      * 簡単な選択:
      *   Mac: Alt+Up (Alt+Down)
@@ -143,7 +143,7 @@ public class EditingDemo {
     }
 
     /**
-     * 7.- ポストフィックステンプレート
+     * 8.- ポストフィックステンプレート
      *
      * Mac: Cmd+J
      * Win: Ctrl+J
@@ -157,7 +157,7 @@ public class EditingDemo {
     }
 
     /**
-     * 8.- Intentで条件を整理する
+     * 9.- Intentで条件を整理する
      *
      * Intent:
      *   Mac: Alt+Enter
@@ -170,7 +170,7 @@ public class EditingDemo {
     }
 
     /**
-     * 9.- Ctrl-Space 対 Ctrl-Shift-Space (賢い)
+     * 10.- Ctrl-Space 対 Ctrl-Shift-Space (賢い)
      */
     public ArrayList getArrayList() {
         return null;
@@ -178,7 +178,7 @@ public class EditingDemo {
     private ArrayList createArrayList() { return null; }
 
     /**
-     * 10.- ロケールヒストリー
+     * 11.- ロケールヒストリー
      *
      * Mac: Cmd+Shift+A -> Show History
      * Win: Ctrl+Shift+A -> Show History

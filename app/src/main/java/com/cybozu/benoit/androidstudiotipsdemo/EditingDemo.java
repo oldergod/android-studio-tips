@@ -30,7 +30,7 @@ public class EditingDemo {
     private ArrayList mArrayList;
 
     /**
-     * 1.- アクセスサーチ
+     * 1.- アクションサーチ
      * すべてのコマンドを検索できるダイアログ
      *
      * Mac: Cmd+Shift+A

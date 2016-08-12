@@ -2,7 +2,7 @@ package com.cybozu.benoit.androidstudiotipsdemo;
 
 /**
  * Created by benoit-quenaudon on 6/28/16.
- * <p>
+ *
  * Reference:
  * The experts' guide to Android development tools
  * https://www.youtube.com/watch?v=hHnTIMjd1Y8
@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * 0.- General tips
- * <p>
+ *
  * Tools -> Create command line launcher
  * Help -> Edit custom VM options
  * Alt-F1 -> Enter
@@ -33,8 +33,8 @@ public class EditingDemo {
      * 1.- アクションサーチ
      * すべてのコマンドを検索できるダイアログ
      *
-     * Mac: Cmd+Shift+A
-     * Win: Ctrl+Shift+A
+     *   Mac: Cmd+Shift+A
+     *   Win: Ctrl+Shift+A
      */
 
     /**
@@ -60,7 +60,7 @@ public class EditingDemo {
 
     /**
      * 4.- instanceof ArrayList
-     * <p>
+     *
      * "." は型の関数を提供し、キャストもする
      * Alt-Enter: Insert (cast) declaration
      */
@@ -72,11 +72,11 @@ public class EditingDemo {
 
     /**
      * 5.- Multicursor
-     * <p>
+     *
      * Select Next: Ctrl-G
      * Skip:
-     * Mac: Cmd+G
-     * Win: F3
+     *   Mac: Cmd+G
+     *   Win: F3
      * テンプレートも利用可能
      * 複数のクリップボード
      * Cmd+Shift+A: すべてが適用される
@@ -119,13 +119,13 @@ public class EditingDemo {
 
     /**
      * 7.- メソッド抽出
-     * <p>
+     *
      * 簡単な選択:
-     * Mac: Alt+Up (Alt+Down)
-     * Win: Ctrl+W (Ctrl+Shift+W)
+     *   Mac: Alt+Up (Alt+Down)
+     *   Win: Ctrl+W (Ctrl+Shift+W)
      * 抽出:
-     * Mac: Cmd+Alt+M
-     * Win: Cmd+Shift+A -> Extract Method
+     *   Mac: Cmd+Alt+M
+     *   Win: Cmd+Shift+A -> Extract Method
      */
     public void Values() {
         List<Integer> even = new LinkedList<>();
@@ -147,9 +147,9 @@ public class EditingDemo {
 
     /**
      * 8.- ポストフィックステンプレート
-     * <p>
-     * Mac: Cmd+J
-     * Win: Ctrl+J
+     *
+     *   Mac: Cmd+J
+     *   Win: Ctrl+J
      */
     public void postfix() {
         int[] ints = {1, 2, 3, 4};
@@ -161,10 +161,10 @@ public class EditingDemo {
 
     /**
      * 9.- Intentで条件を整理する
-     * <p>
+     *
      * Intent:
-     * Mac: Alt+Enter
-     * Win:
+     *   Mac: Alt+Enter
+     *   Win:
      */
     public void conditions(boolean a, boolean b, boolean c, boolean d) {
         if (!(!(c || d) || !(a || b))) {
@@ -186,7 +186,7 @@ public class EditingDemo {
     /**
      * 11.- ロケールヒストリー
      *
-     * Mac: Cmd+Shift+A -> Show History
-     * Win: Ctrl+Shift+A -> Show History
+     *   Mac: Cmd+Shift+A -> Show History
+     *   Win: Ctrl+Shift+A -> Show History
      */
 }

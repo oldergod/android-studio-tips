@@ -2,10 +2,10 @@ package com.cybozu.benoit.androidstudiotipsdemo;
 
 /**
  * Created by benoit-quenaudon on 6/28/16.
- *
+ * <p>
  * Reference:
- *   The experts' guide to Android development tools
- *   https://www.youtube.com/watch?v=hHnTIMjd1Y8
+ * The experts' guide to Android development tools
+ * https://www.youtube.com/watch?v=hHnTIMjd1Y8
  */
 
 import android.util.Log;
@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * 0.- General tips
- *
+ * <p>
  * Tools -> Create command line launcher
  * Help -> Edit custom VM options
  * Alt-F1 -> Enter
@@ -41,7 +41,7 @@ public class EditingDemo {
      * 2.- Smart Join: Ctrl+Shift+J
      * 文字列を連結する
      *
-     * @return the constant string
+     * @return the constant string:
      */
     public String getDescription() {
         final String desc = "この" +
@@ -60,7 +60,7 @@ public class EditingDemo {
 
     /**
      * 4.- instanceof ArrayList
-     *
+     * <p>
      * "." は型の関数を提供し、キャストもする
      * Alt-Enter: Insert (cast) declaration
      */
@@ -72,11 +72,11 @@ public class EditingDemo {
 
     /**
      * 5.- Multicursor
-     *
+     * <p>
      * Select Next: Ctrl-G
      * Skip:
-     *   Mac: Cmd+G
-     *   Win: F3
+     * Mac: Cmd+G
+     * Win: F3
      * テンプレートも利用可能
      * 複数のクリップボード
      * Cmd+Shift+A: すべてが適用される
@@ -99,30 +99,33 @@ public class EditingDemo {
      *   Mac: F3
      *   Win: F11
      *
-     * 数字にブックマーク
+     * 数字に登録してブックマーク
      * 0 に登録: Ctrl+Shift+0
      * 1 に登録: Ctrl+Shift+1
      *
      * Goto 0..9: Ctrl-0..9
      *
-     * 文字にブックマーク:
+     * 文字に登録してブックマーク:
      * A に登録:
      *   Mac: Alt+F3 -> A
      *   Win: Ctrl+F11 -> A
      * B に登録:
      *   Mac: Alt+F3 -> B
      *   Win: Ctrl+F11 -> B
+     *
+     * すべてのブックマークを確認
+     *   Mac: Cmd+F3
      */
 
     /**
      * 7.- メソッド抽出
-     *
+     * <p>
      * 簡単な選択:
-     *   Mac: Alt+Up (Alt+Down)
-     *   Win: Ctrl+W (Ctrl+Shift+W)
+     * Mac: Alt+Up (Alt+Down)
+     * Win: Ctrl+W (Ctrl+Shift+W)
      * 抽出:
-     *   Mac: Cmd+Alt+M
-     *   Win: Cmd+Shift+A -> Extract Method
+     * Mac: Cmd+Alt+M
+     * Win: Cmd+Shift+A -> Extract Method
      */
     public void Values() {
         List<Integer> even = new LinkedList<>();
@@ -144,7 +147,7 @@ public class EditingDemo {
 
     /**
      * 8.- ポストフィックステンプレート
-     *
+     * <p>
      * Mac: Cmd+J
      * Win: Ctrl+J
      */
@@ -158,10 +161,10 @@ public class EditingDemo {
 
     /**
      * 9.- Intentで条件を整理する
-     *
+     * <p>
      * Intent:
-     *   Mac: Alt+Enter
-     *   Win:
+     * Mac: Alt+Enter
+     * Win:
      */
     public void conditions(boolean a, boolean b, boolean c, boolean d) {
         if (!(!(c || d) || !(a || b))) {
@@ -175,7 +178,10 @@ public class EditingDemo {
     public ArrayList getArrayList() {
         return null;
     }
-    private ArrayList createArrayList() { return null; }
+
+    private ArrayList createArrayList() {
+        return new ArrayList();
+    }
 
     /**
      * 11.- ロケールヒストリー

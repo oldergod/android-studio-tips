@@ -6,12 +6,13 @@ import android.util.Log;
 import android.widget.TextView;
 
 /**
- * 1.- Update Gradle
- * 2.- Fix gradle error with heap upgrade
- * 3.- Flavor with 21 as minSdkTarget
+ * 1.- Enable multidex
+ * 2.- Update Gradle
+ * 3.- Fix gradle error with heap upgrade
+ * 4.- Flavor with 21 as minSdkTarget
  *      Project Structure -> App -> Flavor
- * 4.- Enable instant run
- * 5.- Change VersionCode in the gradle.properties
+ * 5.- Enable instant run
+ * 6.- Change VersionCode in the gradle.properties
  *      to show we should understand how changes affect the build
  *
  * Reference @see https://developer.android.com/studio/build/multidex.html

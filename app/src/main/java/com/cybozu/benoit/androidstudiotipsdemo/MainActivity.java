@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("皆様、元気か！？なるほど。");
+        textView.setText("皆様");
     }
 }

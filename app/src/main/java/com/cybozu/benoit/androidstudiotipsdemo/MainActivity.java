@@ -13,6 +13,8 @@ import android.widget.TextView;
  * 4.- Enable instant run
  * 5.- Change VersionCode in the gradle.properties
  *      to show we should understand how changes affect the build
+ *
+ * Reference @see https://developer.android.com/studio/build/multidex.html
  */
 public class MainActivity extends AppCompatActivity {
 
